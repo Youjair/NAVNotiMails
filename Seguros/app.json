@@ -1,0 +1,19 @@
+{
+  "id": "4cdf05a3-1a00-4be6-bd61-cb67f6245fb5",
+  "name": "Seguros",
+  "publisher": "Jair",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "12.0.0.0",
+  "application": "12.0.0.0",
+  "showMyCode": true,
+  "runtime": "1.0"
+}
