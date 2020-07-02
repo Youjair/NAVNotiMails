@@ -9,6 +9,21 @@ pageextension 50100 "Jair InsuranceCardExt" extends "Insurance Card"
                 ApplicationArea = FixedAssets;
             }
         }
+        addafter(Posting)
+        {
+            group(JairNotification)
+            {
+                Caption = 'Notifications', Comment = 'ESP=Notificaciones';
+                field("Jair Alert"; "Jair Alert")
+                {
+                    ApplicationArea = FixedAssets;
+                }
+                field("Jair Notice"; "Jair Notice")
+                {
+                    ApplicationArea = FixedAssets;
+                }
+            }
+        }
     }
 
 
