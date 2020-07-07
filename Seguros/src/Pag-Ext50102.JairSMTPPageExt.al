@@ -13,6 +13,7 @@ pageextension 50102 "Jair SMTPPageExt" extends "SMTP Mail Setup"
                 ApplicationArea = All;
             }
         }
+
     }
 
 }

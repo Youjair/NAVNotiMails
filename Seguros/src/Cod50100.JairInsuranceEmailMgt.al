@@ -40,6 +40,7 @@ codeunit 50100 "Jair InsuranceEmailMgt"
             true
         );
         SMTPMail.Send();
+        Message('Mensaje enviado %1  %2  %3', SenderName, SenderAddress, Recipients);
     end;
 
     local procedure GetSenderNameForTestPurposes(TokenName: Text): Text

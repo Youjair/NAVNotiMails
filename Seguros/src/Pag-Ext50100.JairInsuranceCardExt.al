@@ -25,6 +25,25 @@ pageextension 50100 "Jair InsuranceCardExt" extends "Insurance Card"
             }
         }
     }
+    actions
+    {
+        addafter("Tot. Value Insured")
+        {
 
+            action(TestSMTP)
+            {
+                ApplicationArea = All;
+                Caption = 'SMPT Test', comment = 'ESP="Prueba SMTP"';
+                trigger OnAction()
+                begin
+                    Tester.Run();
+                end;
+            }
+        }
 
+    }
+
+    var
+        Tester: Codeunit "Jair InsuranceEmailMgt";
 }
+
